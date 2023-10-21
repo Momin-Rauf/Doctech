@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background: rgba(0, 0, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    z-index: 10;
+    gap: 10px;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 30px;
+    margin-right:40px;
+    font: bold;
+}
+ul:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(167, 117, 117);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font: bolder;
+    font-size: large;
+    margin: 3px;
+}
+

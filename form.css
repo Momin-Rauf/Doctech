@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.left-section{
+    background-image: url('./img/doc..png');
+    background-color: #1167b1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32%;
+    height: auto;
+    max-width: 100%;
+}
+.right-section{
+    background:#2a9df4;
+    width:68%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    
+    background-image: url('./img/bg.jpg');
+    max-width: 100%;
+    flex-direction: row;
+    height: 100vh;
+}
+
+fieldset{
+    border:0px;
+    background:#83c3f5 ;
+    display: flex;
+    flex: column;
+    max-width: 100%;
+    padding: 2%;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px white;
+    height: 50vh;
+    border-radius: 15px;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex: column;
+    padding: 2%;
+    text-align: center;
+    max-width: 100%;
+    flex-direction: column;
+    height: 50vh;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: .5px solid blue;
+    border-radius: 20px;
+    margin: 10px;
+    max-width: 100%;
+    margin-top: 0px;
+    width: 180px;
+    height: 20px;
+    padding: 4px;
+
+}
+
+#password{
+    position: relative;
+    left:-5%;
+    max-width: 100%;
+}
+
+/* #check-lab{
+    position: relative;
+    top: 1%;
+    left: 25px;
+} */
+
+label{
+    position: relative;
+    max-width: 100%;
+    left:-5%;
+}
+
+button{
+    background: blue;
+    color: white;
+    padding: 6px;
+    max-width: 100%;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    
+}
+
+legend{
+    font-size: medium;
+    display: flex;
+    max-width: 100%;
+    flex-direction:row;
+    position: relative;
+    top: 10%;
+}
+
+legend p{
+    color: blue;
+    max-width: 100%;
+}
+

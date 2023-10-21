@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./AppPatient.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <title>Doctor's Dashboard</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <span></span>
+        <ul>
+            <li><a href="./AddPatient.html">Add Patient</a></li>
+            <li><a href="./patient.html">Patients</a></li>
+            <li><a href="./distributors.html">Distributors</a></li>
+            <li><a href="./chat.html">Chat</a></li>
+            <li><a href="./profile.html">Profile</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <div class="main">
+        <form action="#">
+            <section class="side">
+                <ul id="ul-side">
+                    <li class="li-side"><a href="#">Registration Form</a></li>
+                    <li class="li-side"><a href="#">Medical History</a></li>
+                    <li class="li-side"><a href="#">Insurance Record</a></li>
+                    <li class="li-side"><a href="#">Test Reports</a></li> <!-- Add Test Reports link -->
+                </ul>
+            </section>
+            <section class="right-sect">
+                <!-- Registration Form -->
+                <div style="height: 200px;" class="PatientInfo">
+                    <!-- Existing registration form content -->
+                    <h1>User Data</h1>
+                    <div style="width: 100%; background: white;height: 120px;" ></div>
+                </div>
+                <!-- Medical History -->
+                <div style="height: 200px;" class="PatientInfo">
+                    
+                    <h1>Insurance</h1>
+                    <div style="width: 100%; background: white;height: 120px;" ></div>
+                </div>
+                <!-- Insurance Record -->
+                <div style="height: 200px;" class="PatientInfo">
+                    
+                    <h1>Medical History</h1>
+                    <div style="width: 100%; background: white;height: 120px;" ></div>
+                </div>
+                <!-- Test Reports Form -->
+                <div class="PatientInfo">
+                    <section class="one">
+                        <section class="form">
+                            <h1 style="position: relative; top: 30px; left: 55px; font-size: xx-large;">Test Reports</h1>
+                            <img style="position: relative; left: -6px; top: 115px;" width="350" src="./img/med.png" alt="">
+                        </section>
+                    </section>
+                    <section class="one">
+                        <!-- Form for updating test reports -->
+                        <label for="patientID">Patient ID<input type="text" id="patientID"></label>
+                        <label for="testType">Test Type<input type="text" id="testType"></label>
+                        <label for="testDate">Test Date<input type="date" id="testDate"></label>
+                        <label for="testResult">Test Result<textarea id="testResult" cols="30" rows="5"></textarea></label>
+                        <label for="file">Upload Test Report<input type="file" id="file"></label>
+                    </section>
+                    <section class="one">
+                        <!-- List of test reports and data -->
+                        <h2>Test Reports List</h2>
+                        <ul>
+                            <!-- List of test reports with details -->
+                            <li>Patient ID: 1234</li>
+                            <li>Test Type: Blood Test</li>
+                            <li>Test Date: 2023-10-01</li>
+                            <li>Test Result: Normal</li>
+                            <!-- Add more test reports as needed -->
+                        </ul>
+                    </section>
+                </div>
+            </section>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #333; color: #fff; text-align: center; padding: 10px;">
+        &copy; Momin and Doctech | Contact: <a href="mailto:mrauf.bese21seecs@seecs.edu.pk" style="color: #fff;">mrauf.bese21seecs@seecs.edu.pk</a>
+    </div>
+</body>
+</html>

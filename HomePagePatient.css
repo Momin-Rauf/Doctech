@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.chart{
+    height: 120vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+    position: relative;
+    
+    flex-wrap: wrap;
+
+}
+input{
+    border: .5px solid blue ;
+    border-radius: 100px;
+    margin: 4px;
+    padding:5px;
+}
+
+label{
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+}
+
+button{
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background: blue;
+}
+
+.table {
+    margin: 20px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #3498db;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.bp{
+    border-bottom: 2px solid blue;
+}
+.sugar{
+    border-bottom: 2px solid blue;
+    padding: 5px;
+}
+
+
+
+.prescriptions{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.tests-to-conduct{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.test-reports{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main{
+    color: blue;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+video{
+    filter: blur(2px);
+}

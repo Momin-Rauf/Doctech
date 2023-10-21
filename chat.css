@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+    .right-sect{
+        background: #83c3f5;
+        flex-wrap: wrap;
+        width:86%;
+        position: fixed;
+        bottom: 0px;
+        left:14%;
+        max-width: 100%;
+        z-index: -10;
+        height: auto;
+    }
+
+
+    .side{
+        position: fixed;
+        left: 0px;
+        flex-wrap: wrap;
+        top: 12%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        width: 14%;
+        scrollbar-width: none;
+        max-width: 100%;
+        box-shadow: 1px 1px 2px 2px blue;
+        background: #91adc0;
+        height: 100vh;
+    }
+
+    
+#ul-side{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    margin-right:40px;
+   
+}  
+
+span{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+
+.li-side{
+    text-align: left;
+    font-weight: lighter;
+    color: black;
+    width: 110%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:26px;
+    max-width: 100%;
+    border-bottom:.5px solid white;
+}
+
+.li-side:hover{
+    background: green;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+button{
+    color: white;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 100px;
+    
+    border-radius: 20px;
+    max-width: 100%;
+    background: blue;
+}
+
+input{
+    padding: 6px;
+    margin: 10px;
+    height: 20px;
+    width: 700px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.chat{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    
+    background: white;
+    height: 70vh;
+
+}
+
+.dr-text{
+    background: rgb(72, 72, 161);
+    border: 0px;
+    border-radius: 0px;
+    width: 500px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    position: relative;
+    right: -540px;
+    margin-right:15px;
+    color: white;
+}
+
+.user-text{
+    background: rgb(116, 116, 201);
+    border: 0px;
+    flex-wrap: wrap;
+    border-radius: 0px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 50px;
+   margin: 10px;
+    color: white;
+}
+
+
+
+
+
+

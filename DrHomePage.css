@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.base-page{
+    height: 80vh;
+    max-width: 100%;
+}
+
+video{
+    filter:blur(3px);
+    max-width: 100%;
+    width: 1270px;
+}
+
+.h-h2{
+    position: relative;
+    max-width: 100%;
+    top: -650px;
+    left: 30%;
+    height: 30px;
+    background: rgba(0, 0, 255, 0.5);
+    width: 200px;
+
+}
+
+
+.Appointments{
+    height: 70vh;
+    background:#83c3f5 ;
+    max-width: 100%;
+    width: 1270px;
+
+}
+
+.calender{
+    position: relative;
+    max-width: 100%;
+    top: 50%;
+}
+
+.btn-check{
+    position: absolute;
+    top: 155%;
+    left: 8%;
+    width: 200px;
+    background: blue;
+    max-width: 100%;
+    box-shadow: 1px 1px 1px 1px black;
+    z-index: 10;
+}
+.btn-check:hover{
+    
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+input{
+    height: 100px;
+    background: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    max-width: 100%;
+    padding: 5px;
+    left: -60px;
+    border: 2px  black;
+    border-radius: 30px;
+
+}
+
+label{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    max-width: 100%;
+    color: Black;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+.App-list{
+    background: #2a9df4;
+    border: blue;
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+    position: relative;
+    top: 12%;
+    left: 30%;
+    padding: 10px;
+    max-width: 100%;
+    font: bolder;
+    font-size: larger;
+    max-width: 100%;
+}
+nav{
+    height: 10vh;
+    max-width: 100%;
+    width: 100%;
+    background: rgba(0, 0, 255);
+    color: white;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    gap: 10px;
+}
+.ul-app{
+    overflow-y: scroll;
+    height: 180px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+.li-app{
+    background: blue;
+    color: white;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+
+
+}

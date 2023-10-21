@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="HomePagePatient.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <span>logo</span>
+
+        <ul>
+            <li><a href="./book.html">Book Appointment</a></li>
+            <li><a href="#chart">Chart</a></li>
+            <li><a href="./chat.html">Chat</a></li>
+            <li><a href="#prescription">Prescriptions</a></li>
+            <li><a href="./patient-profile.html">Profile</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <video muted loop autoplay width="1276" src="./img/v1.mp4"></video>
+        <h1 style="position: relative;top: -600px;left: 10%;" >Hello! Welcome to Doctech</h1>
+    </div>
+    <div id="chart" class="chart">
+        <h1 style="position: relative;left: 10px;" >Chart</h1>
+        <section class="bp">
+            <section >
+                <label for="">systolic pressure<input type="number"></label>
+                <label for="">diastolic pressure<input type="number"></label>
+                <label for="">Date:<input type="date" name="" id=""></label>
+                <label for="">Time:<input type="time" name="" id=""></label>
+                <button>Add</button>
+            </section>
+            
+                <section class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Systolic (mmHg)</th>
+                                <th>Diastolic (mmHg)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2023-10-16</td>
+                                <td>09:00 AM</td>
+                                <td>120</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <td>2023-10-17</td>
+                                <td>03:30 PM</td>
+                                <td>130</td>
+                                <td>85</td>
+                            </tr>
+                            <tr>
+                                <td>2023-10-18</td>
+                                <td>08:15 AM</td>
+                                <td>140</td>
+                                <td>90</td>
+                            </tr>
+                            <tr>
+                                <td>2023-10-19</td>
+                                <td>02:45 PM</td>
+                                <td>125</td>
+                                <td>82</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+        </section>
+        
+            <section class="sugar">
+                <section class="">
+                    <label for="">Sugar Level (mg/dL): <input type="number"></label>
+                    <label for="">Date: <input type="date"></label>
+                    <label for="">Time: <input type="time"></label>
+                    <button>Add</button>
+                </section>
+                <section class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Sugar Level (mg/dL)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2023-10-16</td>
+                                <td>09:00 AM</td>
+                                <td>120</td>
+                            </tr>
+                            <tr>
+                                <td>2023-10-17</td>
+                                <td>03:30 PM</td>
+                                <td>130</td>
+                            </tr>
+                            <tr>
+                                <td>2023-10-18</td>
+                                <td>08:15 AM</td>
+                                <td>140</td>
+                            </tr>
+                            <tr>
+                                <td>2023-10-19</td>
+                                <td>02:45 PM</td>
+                                <td>125</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+            
+        
+        
+    </div>
+    <div  class="prescriptions">
+        <h1 style="position: relative;" >Prescription</h1>
+        <section class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name of Medicine</th>
+                        <th>Distributor Name</th>
+                        <th>No of Days Remaining</th>
+                        <th>Time</th>
+                        <th>Dosage</th>
+                        <th>Done</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Medicine A</td>
+                        <td>Distributor X</td>
+                        <td>7</td>
+                        <td>08:00 AM</td>
+                        <td>1 pill</td>
+                        <td><input type="checkbox" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Medicine B</td>
+                        <td>Distributor Y</td>
+                        <td>5</td>
+                        <td>12:30 PM</td>
+                        <td>2 pills</td>
+                        <td><input type="checkbox" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Medicine C</td>
+                        <td>Distributor Z</td>
+                        <td>3</td>
+                        <td>05:00 PM</td>
+                        <td>1 pill</td>
+                        <td><input type="checkbox" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Medicine D</td>
+                        <td>Distributor W</td>
+                        <td>2</td>
+                        <td>10:00 PM</td>
+                        <td>1 pill</td>
+                        <td><input type="checkbox" name="" id=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="test-reports">
+            <h1 style="position: relative;left: 10px;" >Reports</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Test Name</th>
+                        <th>Test Date</th>
+                        <th>Result</th>
+                        <th>Reference Range</th>
+                        <th>Test Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Blood Pressure</td>
+                        <td>2023-10-16</td>
+                        <td>120/80 mmHg</td>
+                        <td>90-120/60-80 mmHg</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Blood Sugar</td>
+                        <td>2023-10-17</td>
+                        <td>135 mg/dL</td>
+                        <td>70-130 mg/dL</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Cholesterol</td>
+                        <td>2023-10-18</td>
+                        <td>180 mg/dL</td>
+                        <td>100-200 mg/dL</td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="tests-to-conduct">
+            <h1 style="position: relative;left: 10px;" >Test to conduct</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Test Name</th>
+                        <th>Recommended Date</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Blood Test</td>
+                        <td>2023-10-20</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Urine Test</td>
+                        <td>2023-11-05</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr>
+                        <td>ECG</td>
+                        <td>2023-11-10</td>
+                        <td>Low</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+    </div>
+    <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #333; color: #fff; text-align: center; padding: 10px;">
+        &copy; Momin and Doctech | Contact: <a href="mailto:mrauf.bese21seecs@seecs.edu.pk" style="color: #fff;">mrauf.bese21seecs@seecs.edu.pk</a>
+      </div>
+</body>
+</html>
